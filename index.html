@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false"
+                width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" class="iconify icon"
+                data-icon="la:laptop-code" data-inline="false" style="transform: rotate(360deg);">
+                <path fill="rgba(254, 136, 136, 1)"
+                    d="M5 6v13.563l-2.281 2.314A2.444 2.444 0 0 0 2 23.594A2.418 2.418 0 0 0 4.406 26h23.188A2.418 2.418 0 0 0 30 23.594a2.45 2.45 0 0 0-.719-1.719L27 19.562V6H5zm2 2h18v11H7V8zm9 1l-1.5 9H16l1.5-9H16zm-3.914 2l-1.719 2.068L10 13.5l.367.432L12.086 16l1.086-.863L11.81 13.5l1.36-1.637L12.087 11zm7.828 0l-1.086.863L20.19 13.5l-1.36 1.637l1.085.863l1.719-2.068L22 13.5l-.367-.432L19.914 11zM6.437 21h19.125l2.313 2.281a.464.464 0 0 1 .125.313a.386.386 0 0 1-.406.406H4.406A.386.386 0 0 1 4 23.594c0-.11.047-.234.125-.313L6.438 21z">
+                </path>
+            </svg>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li><a href="#hero" onclick="hideUl()">Home</a></li>
+                <li><a href="#about" onclick="hideUl()">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="nav-toggle-icons">
+                <div class="social-link">
+                    <a href=""><img src="./images/icons8-linkedin-24.png" alt=""></a>
+                    <p>LinkedIn</p>
+                </div>
+                <div class="social-link">
+                    <a href=""><img src="./images/icons8-github-24.png" alt=""></a>
+                    <p>Github</p>
+                </div>
+                <div class="social-link">
+                    <a href=""><img src="./images/icons8-resume-24.png" alt=""></a>
+                    <p>Resume</p>
+                </div>
+                <div class="social-link">
+                    <a href=""><img src="./images/icons8-mail-24.png" alt=""></a>
+                    <p>Mail</p>
+                </div>
+            </div>
+        </div>        
+        <div class="toggle-button"></div>
+    </nav>
+
+    <section id="hero">
+        <div class="social">
+            <ul>
+                <li class="linkedin"><a href="">LinkedIn<img src="./images/icons8-linkedin-24.png" alt=""></a></li>
+                <li class="github"><a href="">Github<img src="./images/icons8-github-24.png" alt=""></a></li>
+                <li class="resume"><a href="">Resume<img src="./images/icons8-resume-24.png" alt=""></a></li>
+                <li class="mail"><a href="">Mail<img src="./images/icons8-mail-24.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="hero_container">
+            <!-- <h6>hello, i'm <span>ugbe adie.</span></h6> -->
+            <!-- <h3>a front-end developer</h3> -->
+            <h1>web developer focused on building exceptional
+            <span>frontend</span> experiences
+            </h1>
+            <a href="#about">LET'S BEGIN
+                <span><img src="./images/icons8-arrow-24.png"/></span>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-head"><p>About</p></div>
+                <div></div>
+            </div>
+
+            <div class="about-row">
+                <div class="about-left">
+                    <p>Hi. I'm Ugbe, nice to meet you. Please take a look around :)</p>
+                </div>
+                <div class="about-right">
+                    <p>I'm a developer with a passion for web development.
+                    I enjoy building pixel-perfect and responsive websites
+                    and applications that provide real value to the end user
+                    and i look forward to improving my skills everyday and learning
+                    more about frameworks and technologies relevant to my job.</p>
+                </div>
+            </div>
+            <div class="skills">
+
+                <div>
+                    <img src="./images/icons8-html-5-48.png" alt="">
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-css3-48.png" alt="">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-javascript-48.png" alt="">
+                    <p>JAVASCRIPT</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-typescript-48.png" alt="">
+                    <p>TYPESCRIPT</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-react-48.png" alt="">
+                    <p>REACT</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-sass-48.png" alt="">
+                    <p>SASS</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-tailwind-css-48.png" alt="">
+                    <p>TAILWIND CSS</p>
+                </div>
+                <div>
+                    <img src="./images/icons8-bootstrap-48.png" alt="">
+                    <p>BOOTSTRAP</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
