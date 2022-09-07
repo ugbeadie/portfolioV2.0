@@ -223,21 +223,16 @@ nav {
 
 #about {
     width: 100%;
-    height: 100vh;
 }
 
 .about-container {
     width: 100%;
     height: 100%;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 150px;
+    padding: 50px 150px;
 }
 
 .about-content {
@@ -331,7 +326,7 @@ nav {
         font-size: 60px;
     }
     .about-container {
-        padding: 0 80px;
+        padding: 50px 80px;
     }
     .about-left {
         font-size: 28px;
@@ -407,35 +402,30 @@ nav {
         width: 40px;
         height: 40px;
     }
-    .hero {
+    #hero {
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .hero_container {
-        height: 100vh;
         padding: 100px 20px 0;
     }
-
     .hero_container h6 {
         font-size: 20px;
     }
-
     .hero_container h6 span {
         font-size: 25px;
     }
-
     .hero_container h3 {
         font-size: 18px;
     }
-
     .hero_container h1,
     .hero_container h1 span {
         line-height: 50px;
         font-size: 40px;
     }
     .about-container {
-        padding: 0 20px;
+        padding: 50px 20px;
     }
     .about-row {
         display: flex;
