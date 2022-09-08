@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
-</head>
+</header>
 <body>
     <nav>
         <div class="logo">
@@ -22,8 +22,8 @@
             <ul>
                 <li><a href="#hero" onclick="hideUl()">Home</a></li>
                 <li><a href="#about" onclick="hideUl()">About</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="nav-toggle-icons">
                 <div class="social-link">
@@ -72,7 +72,7 @@
     <section id="about">
         <div class="about-container">
             <div class="about-content">
-                <div class="about-head"><p>About</p></div>
+                <div class="about-header"><p>About</p></div>
                 <div></div>
             </div>
 
@@ -88,44 +88,151 @@
                     more about frameworks and technologies relevant to my job.</p>
                 </div>
             </div>
-            <div class="skills">
-
-                <div>
-                    <img src="./images/icons8-html-5-48.png" alt="">
-                    <p>HTML</p>
+            <div id="skills">
+                <h4>// These are the technologies i've worked with</h4>
+                <div class="skill-container">
+                
+                    <div>
+                        <img src="./images/icons8-html-5-48.png" alt="">
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-css3-48.png" alt="">
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-javascript-48.png" alt="">
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-typescript-48.png" alt="">
+                        <p>TYPESCRIPT</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-react-48.png" alt="">
+                        <p>REACT</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-sass-48.png" alt="">
+                        <p>SASS</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-tailwind-css-48.png" alt="">
+                        <p>TAILWIND CSS</p>
+                    </div>
+                    <div>
+                        <img src="./images/icons8-bootstrap-48.png" alt="">
+                        <p>BOOTSTRAP</p>
+                    </div>
+                
                 </div>
-                <div>
-                    <img src="./images/icons8-css3-48.png" alt="">
-                    <p>CSS</p>
-                </div>
-                <div>
-                    <img src="./images/icons8-javascript-48.png" alt="">
-                    <p>JAVASCRIPT</p>
-                </div>
-                <div>
-                    <img src="./images/icons8-typescript-48.png" alt="">
-                    <p>TYPESCRIPT</p>
-                </div>
-                <div>
-                    <img src="./images/icons8-react-48.png" alt="">
-                    <p>REACT</p>
-                </div>
-                <div>
-                    <img src="./images/icons8-sass-48.png" alt="">
-                    <p>SASS</p>
-                </div>
-                <div>
-                    <img src="./images/icons8-tailwind-css-48.png" alt="">
-                    <p>TAILWIND CSS</p>
-                </div>
-                <div>
-                    <img src="./images/icons8-bootstrap-48.png" alt="">
-                    <p>BOOTSTRAP</p>
-                </div>
-
             </div>
         </div>
     </section>
+
+    <section id="projects">
+        <div class="project-container">
+
+            <div class="project-header">
+                <p>Projects</p>
+                <h4>// Have a look at some of my works</h4>
+            </div>
+
+            <div class="projects">
+                <div class="single-project">
+                    <div class="project-img">
+                        <img class="project-img" src="./images/commercial.png" />
+                        <div class="overlay">
+                            <p class="desc">A full-fledge ecommerce store built with
+                                react. But that's not all, see repo readme for full project
+                                description and walkabout...</p>
+                            <div class="overlay-links">
+                                <a href="">Live Site</a>
+                                <a href="">Repo Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="name">ugbecommercials</p>
+                    <p class="tools">React, React-icons, Animate-On-Scroll</p>
+                </div>
+
+                <div class="single-project">
+                    <div class="project-img">
+                        <img class="project-img" src="./images/commercial.png" />
+                        <div class="overlay">
+                            <p class="desc">An ecommerce store built with 
+                                react. see repo readme for full project
+                                description and walkabout...</p>
+                            <div class="overlay-links">
+                                <a href="">Live Site</a>
+                                <a href="">Repo Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="name">ugbecommercials</p>
+                    <p class="tools">React, React-icons, Animate-On-Scroll</p>
+                </div>
+
+                <div class="single-project">
+                    <div class="project-img">
+                        <img class="project-img" src="./images/commercial.png" />
+                        <div class="overlay">
+                            <p class="desc">An ecommerce store built with
+                                react. see repo readme for full project
+                                description and walkabout...</p>
+                            <div class="overlay-links">
+                                <a href="">Live Site</a>
+                                <a href="">Repo Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="name">ugbecommercials</p>
+                    <p class="tools">React, React-icons, Animate-On-Scroll</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <p>Contact</p>
+                <h4>// Submit the form below or shoot me an email - 
+                    <span><a href="mailto:email@ugbeadie3@gmail.com">ugbeadie3@gmail.com</a></span>
+                </h4>
+            </div>
+
+            <div class='contact-form'>
+                <form action="https://formspree.io/f/xyyobrzv" method="POST">
+                    <div class="custom-field">
+                        <input type="text" name="name" required />
+                        <span class="placeholder">Name</span>
+                    </div>
+                    <div class="custom-field">
+                        <input type="text" name="subject" required />
+                        <span class="placeholder">Email</span>
+                    </div>
+                    <div class="custom-field message">
+                        <textarea name="message" id="message" cols="30" rows="10" data-gramm="false" data-gramm-editor="false"
+                            data-enable-grammarly="false" required></textarea>
+                        <span class="placeholder">Message</span>
+                    </div>
+                    <button type="submit" class="submit-btn">submit</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p><span class="copyright">&copy</span> <span id="date"></span> Ugbe Adie. All Rights Reserved</p>
+    </footer>
+
+    <a class="scroll-link top-link" href="#hero">
+        <img src="./images/icons8-up-arrow-24.png" alt="">
+    </a>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -14,13 +14,13 @@ window.addEventListener('scroll',  function() {
     if (window.scrollY > 550) {
         navMenu.style.position = 'fixed';
         navMenu.style.display = 'flex'
-        navMenu.style.backgroundColor = 'rgba(209, 210, 222, 1)';
-        // topLink.classList.add("show-link");
+        navMenu.style.backgroundColor = 'rgba(209, 210, 222, 0.8)';
+        topLink.classList.add("show-link");
 
     }else{
         navMenu.style.position = 'absolute';
         navMenu.style.display = "none";
-        // topLink.classList.remove("show-link");
+        topLink.classList.remove("show-link");
 
     }
 });
@@ -31,3 +31,13 @@ function hideUl() {
     navUl.classList.toggle('active');
     // navMenu.classList.remove('active')  
 }
+
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
+
+// const swiper = new Swiper('.swiper', {
+//   pagination: {
+//     el: '.swiper-pagination',
+//     type: 'bullets',
+//   }, 
+// });
