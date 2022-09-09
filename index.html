@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio</title>
 </header>
 <body>
@@ -22,8 +23,8 @@
             <ul>
                 <li><a href="#hero" onclick="hideUl()">Home</a></li>
                 <li><a href="#about" onclick="hideUl()">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects" onclick="hideUl()">Projects</a></li>
+                <li><a href="#contact" onclick="hideUl()">Contact</a></li>
             </ul>
             <div class="nav-toggle-icons">
                 <div class="social-link">
@@ -63,12 +64,10 @@
             </ul>
         </div>
         <div class="hero_container">
-            <!-- <h6>hello, i'm <span>ugbe adie.</span></h6> -->
-            <!-- <h3>a front-end developer</h3> -->
-            <h1>web developer focused on building exceptional
+            <h1 data-aos="zoom-in">web developer focused on building exceptional
             <span>frontend</span> experiences
             </h1>
-            <a href="#about">FIND OUT MORE
+            <a href="#about" data-aos="fade-up" data-aos-delay="500">FIND OUT MORE
                 <span><img src="./images/icons8-arrow-24.png"/></span>
             </a>
             </div>
@@ -145,7 +144,7 @@
             </div>
 
             <div class="projects">
-                <div class="single-project">
+                <div class="single-project" data-aos="fade-up">
                     <div class="project-img">
                         <img class="project-img" src="./images/commercial.png" />
                         <div class="overlay">
@@ -162,7 +161,7 @@
                     <p class="tools">React, React-icons, Animate-On-Scroll</p>
                 </div>
 
-                <div class="single-project">
+                <div class="single-project" data-aos="fade-up" data-aos-delay="700">
                     <div class="project-img">
                         <img class="project-img" src="./images/moviempire.png" />
                         <div class="overlay">
@@ -180,7 +179,7 @@
                     <p class="tools">React, Tailwindcss, TMDB API</p>
                 </div>
 
-                <div class="single-project">
+                <div class="single-project" data-aos="fade-up" data-aos-delay="1400">
                     <div class="project-img">
                         <img class="project-img" src="./images/weathermast.png" />
                         <div class="overlay">
@@ -241,5 +240,12 @@
     </a>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+            once: true,
+        });
+    </script>
 </body>
 </html>
