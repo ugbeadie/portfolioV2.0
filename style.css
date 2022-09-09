@@ -184,7 +184,6 @@ nav {
     align-items: center;
     padding: 5px;
     margin-left: -76px;
-    cursor: pointer;
     transition: all 0.3s;
 }
 
@@ -654,6 +653,10 @@ footer .copyright {
     .hero_container h1 span {
         font-size: 45px;
         line-height: 50px;
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 1;
     }
 }
 
