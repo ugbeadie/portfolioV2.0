@@ -78,6 +78,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .hero_container {
@@ -174,6 +175,7 @@ nav {
     left: 0;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 .social li {
@@ -220,6 +222,10 @@ nav {
     color: #d1d2de;
     text-decoration: none;
     font-weight: 600;
+}
+
+.mobile-links {
+    display: none;
 }
 
 #about {
@@ -703,9 +709,6 @@ footer .copyright {
         left: 0;
         top: 0;
     }
-    .social {
-        display: none;
-    }
     .nav-toggle-icons {
         width: 100%;
         display: flex;
@@ -714,6 +717,9 @@ footer .copyright {
         text-align: center;
         color: rgba(254, 136, 136, 1);
         margin-bottom: 50px;
+    }
+    .social {
+        display: none;
     }
     .social-link img {
         width: 40px;
@@ -737,6 +743,18 @@ footer .copyright {
         font-size: 40px;
         letter-spacing: -2px;
     }
+    .mobile-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0 50px;
+    }
+    .mobile-links > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3px;
+        padding: 5px;
+    }    
     .about-container {
         padding: 0 20px;
     }
