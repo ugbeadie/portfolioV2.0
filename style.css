@@ -135,7 +135,7 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.hero_container a {
+.hero_container .find-out-more {
     position: relative;
     background-color: transparent;
     cursor: pointer;
@@ -152,12 +152,12 @@ nav {
     transition: all 0.3s;
 }
 
-.hero_container a:hover {
+.hero_container .find-out-more:hover {
     border: 3px solid rgba(128, 102, 255, 1);
     background-color: rgba(128, 102, 255, 1);
 }
 
-.hero_container a span img {
+.hero_container .find-out-more span img {
     position: absolute;
     top: 18%;
     right: 10%;
@@ -165,7 +165,7 @@ nav {
     transition: all 0.3s;
 }
 
-.hero_container a:hover span img {
+.hero_container .find-out-more:hover span img {
     transform: rotate(90deg);
 }
 
@@ -739,8 +739,8 @@ footer .copyright {
     }
     .hero_container h1,
     .hero_container h1 span {
-        line-height: 50px;
         font-size: 40px;
+        line-height: 50px;
         letter-spacing: -2px;
     }
     .mobile-links {
@@ -749,12 +749,15 @@ footer .copyright {
         margin: 30px 0 50px;
     }
     .mobile-links > div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin: 3px;
         padding: 5px;
     }    
+    .mobile-links a {
+        display: flex;
+        align-items: center;
+        color: var(--body);
+        text-decoration: none;
+    }
     .about-container {
         padding: 0 20px;
     }
