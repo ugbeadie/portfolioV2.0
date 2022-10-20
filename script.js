@@ -28,16 +28,8 @@ window.addEventListener('scroll',  function() {
 function hideUl() {
     document.body.classList.toggle("cross");
     document.body.classList.toggle('hidden');
-    navUl.classList.toggle('active');
-    // navMenu.classList.remove('active')  
+    navUl.classList.toggle('active');  
 }
 
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
-
-// const swiper = new Swiper('.swiper', {
-//   pagination: {
-//     el: '.swiper-pagination',
-//     type: 'bullets',
-//   }, 
-// });
