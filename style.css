@@ -18,7 +18,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(23, 23, 24);
-    color: #d1d2de;
+    color: var(--body);
 }
 
 /* NAVBAR STARTS HERE */
@@ -61,8 +61,7 @@ nav {
 
 .nav-items a {
     text-decoration: none;
-    color: rgba(254, 136, 136, 1);
-    /* font-size: 20px; */
+    color: var(--orange);
     font-weight: 600;
     padding: 0 10px;
 }
@@ -95,31 +94,8 @@ nav {
     height: 100%;
 }
 
-.hero_container h6 {
-    text-align: start;
-    color: rgba(209, 210, 222);
-    font-size: 35px;
-    font-weight: 400;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.hero_container h6 span {
-    font-family: 'Water Brush', cursive;
-    font-size: 40px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-.hero_container h3 {
-    font-size: 25px;
-    font-weight: 600;
-    color: rgba(254, 136, 136, 1);
-    text-transform: uppercase;
-}
-
 .hero_container h1 {
-    color: rgb(209, 210, 222);
+    color: var(--body);
     font-weight: 700;
     font-size: 90px;
     letter-spacing: -5px;
@@ -133,7 +109,7 @@ nav {
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     font-size: 90px;
-    background: linear-gradient(to right, rgba(254, 136, 136, 1) 27%, rgba(128, 102, 255, 1) 90%);
+    background: linear-gradient(to right, var(--orange) 27%, var(--blue) 90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -151,14 +127,14 @@ nav {
     padding: 7px 45px 7px 21px;
     margin-top: 40px;
     border-radius: 4px;
-    color: #d1d2de;
-    border: 3px solid rgba(254, 136, 136, 1);
+    color: var(--body);
+    border: 3px solid var(--orange);
     transition: all 0.3s;
 }
 
 .hero_container .find-out-more:hover {
-    border: 3px solid rgba(128, 102, 255, 1);
-    background-color: rgba(128, 102, 255, 1);
+    border: 3px solid var(--blue);
+    background-color: var(--blue);
 }
 
 .hero_container .find-out-more span img {
@@ -251,7 +227,7 @@ nav {
 .about-content {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
@@ -263,13 +239,13 @@ nav {
     font-size: 35px;
     display: inline;
     font-weight: 800;
-    border-bottom: 4px solid rgba(254, 136, 136, 1);
+    border-bottom: 4px solid var(--orange);
 }
 
 .about-row {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding-top: 20px;
 }
@@ -292,21 +268,21 @@ nav {
 }
 
 #skills h4 {
-    color: #8b949e;
+    color: var(--gray);
     font-weight: 600;
     text-align: center;
 }
 
 .skill-container {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     text-align: center;
     margin-top: 10px;
 }
 
 .skill-container div {
-    color: rgba(254, 136, 136, 1);
+    color: var(--orange);
     font-weight: 600;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.2), 0 8px 10px -6px rgb(0 0 0 / 0.4);
     padding: 10px;
@@ -333,11 +309,11 @@ nav {
     font-size: 35px;
     display: inline;
     font-weight: 800;
-    border-bottom: 4px solid rgba(254, 136, 136, 1);
+    border-bottom: 4px solid var(--orange);
 }
 
 .project-header h4 {
-    color: #8b949e;
+    color: var(--gray);
     font-weight: 600;
     margin-top: 15px;
 }
@@ -345,7 +321,7 @@ nav {
 .projects {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 50px;
 }
@@ -412,8 +388,8 @@ nav {
     text-decoration: none;
     padding: 7px 10px;
     border-radius: 4px;
-    color: #d1d2de;
-    border: 2px solid rgba(254, 136, 136, 1);
+    color: var(--body);
+    border: 2px solid var(--orange);
     transition: all 0.3s;
 }
 
@@ -440,7 +416,7 @@ nav {
     font-size: 35px;
     display: inline;
     font-weight: 800;
-    border-bottom: 4px solid rgba(254, 136, 136, 1);
+    border-bottom: 4px solid var(--orange);
 }
 
 .contact-header h4 {
@@ -655,7 +631,7 @@ footer .copyright {
     }
     .projects {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     .contact-container {
@@ -727,7 +703,7 @@ footer .copyright {
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
-        color: rgba(254, 136, 136, 1);
+        color: var(--orange);
         margin-bottom: 50px;
     }
     .social {
@@ -787,7 +763,7 @@ footer .copyright {
     }
     .skill-container {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(2, 1fr);
     }
     .project-container {
         padding: 100px 20px;
