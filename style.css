@@ -21,6 +21,8 @@ body {
     color: #d1d2de;
 }
 
+/* NAVBAR STARTS HERE */
+
 nav {
     width: 100%;
     display: none;
@@ -68,6 +70,8 @@ nav {
 .nav-toggle-icons {
     display: none;
 }
+
+/* HERO SECTION STARTS HERE */
 
 #hero {
     background: rgb(23, 23, 24, 0.3) url(./images/hero_desktop_4.png) no-repeat;
@@ -129,7 +133,7 @@ nav {
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     font-size: 90px;
-    background: linear-gradient(-90deg, rgba(254, 136, 136, 1) 27.162295143312438%, rgba(128, 102, 255, 1) 97.8620029592611%);
+    background: linear-gradient(to right, rgba(254, 136, 136, 1) 27%, rgba(128, 102, 255, 1) 90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -228,6 +232,8 @@ nav {
     display: none;
 }
 
+/* ABOUT SECTION STARTS HERE */
+
 #about {
     width: 100%;
 }
@@ -316,6 +322,8 @@ nav {
     width: 60px;
     height: 60px;
 }
+
+/* PROJECT SECTION STARTS HERE */
 
 .project-container {
     padding: 100px 150px;
@@ -420,6 +428,8 @@ nav {
 .project-img:hover .overlay-links {
     transform: translateY(0);
 }
+
+/* CONTACT FORM STARTS HERE */
 
 .contact-container {
     width: 100%;
@@ -549,6 +559,8 @@ textarea {
 .submit-btn:hover {
     background-color: var(--orange);
 }
+
+/* FOOTER STARTS HERE */
 
 footer {
     display: flex;
