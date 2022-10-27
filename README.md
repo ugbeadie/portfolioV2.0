@@ -1,1 +1,1 @@
-My personal portfolio built with html,css and javascript
+My personal portfolio built with html,css and javascript.
