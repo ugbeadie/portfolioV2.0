@@ -346,6 +346,7 @@ nav {
 
 .single-project .tools {
   color: var(--gray);
+  font-size: 14px;
 }
 
 .overlay {
