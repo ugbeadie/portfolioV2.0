@@ -97,7 +97,7 @@ nav {
 .hero_container h1 {
   color: var(--body);
   font-weight: 700;
-  font-size: 90px;
+  font-size: 85px;
   letter-spacing: -5px;
   text-decoration: none;
   line-height: 100px;
@@ -302,7 +302,13 @@ nav {
 /* PROJECT SECTION STARTS HERE */
 
 .project-container {
-  padding: 100px 150px;
+  padding: 100px 150px 50px;
+}
+
+.mobile-info {
+  color: var(--gray);
+  margin-top: 30px;
+  font-size: 14px;
 }
 
 .project-header p {
